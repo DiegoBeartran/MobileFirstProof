@@ -6,6 +6,7 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -25,7 +26,6 @@ header .header-text {
     width: 80%;
     margin: 0 auto 30px;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header h1 {
@@ -70,5 +70,125 @@ header .header-button figure {
 }
 
 header .header-button img {
-    width: 40%;
+    width: 15px;
 }
+
+main .main__sec1 {
+    width: 100%;
+    background-color: #e5e5e5;
+    min-height: 800px;
+    padding-top: 7rem;
+}
+
+main .main__sec1 figure {
+    display: flex;
+    justify-content: center;
+}
+
+main .main__sec1 .sec1__info {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 1.5rem 5rem;
+    align-items: center;
+    text-align: center;
+}
+
+main .sec1__info h2 {
+    color: #201E1C;
+    font-size: 2.2rem;
+}
+
+main .sec1__info p {
+    color: #757575;
+    font-size: 1.4rem;
+    margin-top: 3rem;
+}
+
+main .sec1__coins {
+    display: grid;
+    grid-template-columns: 101px 66px 35px;
+    grid-template-rows: 39px 39px 39px 39px 39px;
+    margin: 1rem auto;
+    justify-content: center;
+}
+
+main .sec1__coins h3 {
+    color: #ff9536;
+    font-size: 1.8rem;
+    padding: 0.7rem 1rem;
+}
+
+main .sec1__coins p {
+    font-size: 1.6rem;
+    color: #757575;
+    opacity: 0.7;
+    height: 39px;
+    border-left: #e5e5e5 1px solid;
+    border-bottom: #e5e5e5 1px solid;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+main .sec1__coins .coins__text {
+    grid-area: 2 / 1 / 6 / 2;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+main .coins__text p {
+    width: 101px;
+}
+
+main .sec1__coins .coins__value {
+    grid-area: 2 / 2 / 6 / 3;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+main .coins__value p {
+    width: 66px;
+}
+
+main .coins__icons {
+    grid-area: 2 / 3 / 6 / 4;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35px;
+    height: 155px;
+}
+
+main .coins__icons span{
+    width: 35px;
+    height: 39px;
+    border-bottom: #e5e5e5 1px solid;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+main .sec1__bottom {
+    width: 194px;
+    height: 35px;
+    margin: 1.5rem auto 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE9D4;
+    font-size: 1.3rem;
+    border-radius: 8px;
+}
+
+.logo {
+    position: relative;
+    top: 12px;
+}
+
+main .main__sec2 {
+    background-color: #201E1C;
+    height: 100px;
+}
+
