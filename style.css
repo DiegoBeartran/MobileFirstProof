@@ -331,4 +331,47 @@ main .sec4__button button {
     font-size: 1.3rem;
 }
 
+footer {
+    background-color:#F7931A;
+    width: 100%;
+    height: 15rem;
+    display: grid;
+    grid-template-columns: 20% 30% 10% 30% 10%;
+    position: relative;
+    top: -27px;
+}
 
+footer .footer-links {
+    height: inherit;
+    grid-column-start: 2;
+}
+
+footer .footer-links ul {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .footer-links li {
+    height: 12px;
+    list-style: none;
+    margin: 1rem 0;
+}
+
+footer .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+footer .footer-ent {
+    grid-column-start: 4;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFE9D4;
+    font-size: 1rem;
+}
