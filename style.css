@@ -247,4 +247,88 @@ main .main__sec3 h2 {
     bottom: 315px;
 }
 
+main .main__sec4 {
+    background-color: #e4e4e4;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: -27px;
+    padding: 5rem 1rem;
+    text-align: center;
+}
+
+main .main__sec4 h2 {
+    color: black;
+    font-size: 2.2rem;
+}
+
+main .main__sec4 h3 {
+    color: #757575;
+    opacity: 0.8;
+    font-size: 1.3rem;
+    margin: 2.5rem 0;
+}
+
+main .sec4__quarters {
+    display: flex;
+}
+
+main .sec4__centerQ {
+    width: 19rem;
+    height: 24.7rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(171, 166, 153);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+}
+
+main .sec4__centerQ h4 {
+    color: #fff;
+    background-color: #F7931A;
+    padding: 0.7rem 1rem;
+    font-size: 1.2rem;
+    height: 31px;
+    border-radius: 8px;
+    position: relative;
+    top: -15.5px;
+}
+
+main .sec4__centerQ #centerQ-1 {
+    font-size: 1.4rem;
+}
+
+main .sec4__centerQ #centerQ-3 {
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 1.2rem 0;
+}
+
+main .sec4__centerQ #centerQ-4 {
+    color:#757575;
+    font-size: 1.3rem;
+    padding: 0 1rem;
+}
+
+main .sec4__button {
+    background-color:#FAF8F7;
+    border: #f7931A 2px solid;
+    border-radius: 4px;
+    padding: 10px 7px;
+    display: flex;
+    justify-content: space-around;
+    margin: 12px;
+    width: 151px;
+}
+
+main .sec4__button button {
+    background-color: #faf8f7;
+    border: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
 
